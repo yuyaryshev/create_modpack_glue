@@ -1,0 +1,140 @@
+{
+  "mod_elements": [
+    {
+      "name": "IronWeaponIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_weapon_ingot"
+    },
+    {
+      "name": "SteelWeaponIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_weapon_ingot"
+    },
+    {
+      "name": "InpureNetheriteDust",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inpure_netherite_dust"
+    },
+    {
+      "name": "SmallFoodPack",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_food_pack"
+    },
+    {
+      "name": "DiamondWeaponIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_weapon_ingot"
+    },
+    {
+      "name": "DiamondWeaponComposite",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_weapon_composite"
+    },
+    {
+      "name": "SmallCogwheelPack",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_cogwheel_pack"
+    },
+    {
+      "name": "CleaningComposite",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaning_composite"
+    },
+    {
+      "name": "BigFoodPack",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_food_pack"
+    },
+    {
+      "name": "BigCogwheelPack",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_cogwheel_pack"
+    },
+    {
+      "name": "AdvCleaningComposite",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_cleaning_composite"
+    },
+    {
+      "name": "AdvCleaningComponent",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_cleaning_component"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.create_modpack_glue.diamond_weapon_ingot": "Diamond Weapon Ingot",
+      "item.create_modpack_glue.inpure_netherite_dust": "Inpure Netherite Dust",
+      "item.create_modpack_glue.adv_cleaning_composite": "Adv Cleaning Composite",
+      "item.create_modpack_glue.steel_weapon_ingot": "Steel Weapon Ingot",
+      "item.create_modpack_glue.big_cogwheel_pack": "Big Cogwheel Pack",
+      "item.create_modpack_glue.small_food_pack": "Small Food Pack",
+      "item.create_modpack_glue.adv_cleaning_component": "Adv Cleaning Component",
+      "item.create_modpack_glue.cleaning_composite": "Cleaning Composite",
+      "item.create_modpack_glue.diamond_weapon_composite": "Diamond Weapon Composite",
+      "item.create_modpack_glue.small_cogwheel_pack": "Small Cogwheel Pack",
+      "item.create_modpack_glue.big_food_pack": "Big Food Pack",
+      "item.create_modpack_glue.iron_weapon_ingot": "Iron Weapon Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_modpack_glue",
+    "modName": "Create Modpack Glue",
+    "version": "1.0.0",
+    "author": "nname, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.createmodpackglue",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
