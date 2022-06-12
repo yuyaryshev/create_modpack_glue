@@ -4,6 +4,12 @@
     "create_modpack_glue:molten_cleaner",
     "create_modpack_glue:flowing_molten_cleaner",
     "create_modpack_glue:adv_molten_cleaner",
-    "create_modpack_glue:flowing_adv_molten_cleaner"
+    "create_modpack_glue:flowing_adv_molten_cleaner",
+    "create_modpack_glue:weapon_molted_diamond",
+    "create_modpack_glue:flowing_weapon_molted_diamond",
+    "create_modpack_glue:weapon_molted_iron",
+    "create_modpack_glue:flowing_weapon_molted_iron",
+    "create_modpack_glue:weapon_molted_steel",
+    "create_modpack_glue:flowing_weapon_molted_steel"
   ]
 }

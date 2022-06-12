@@ -18,7 +18,8 @@ public abstract class MoltenCleanerFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(CreateModpackGlueModFluids.MOLTEN_CLEANER,
 			CreateModpackGlueModFluids.FLOWING_MOLTEN_CLEANER,
 			MoltenCleanerFluidAttributes
-					.builder(new ResourceLocation("create_modpack_glue:blocks/still"), new ResourceLocation("create_modpack_glue:blocks/flowing"))
+					.builder(new ResourceLocation("create_modpack_glue:blocks/anim_molten_still_block"),
+							new ResourceLocation("create_modpack_glue:blocks/anim_molten_flowing_block"))
 
 					.color(-12012264))
 			.explosionResistance(100f)

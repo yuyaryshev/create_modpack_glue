@@ -10,6 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.createmodpackglue.item.WeaponMoltedSteelItem;
+import net.mcreator.createmodpackglue.item.WeaponMoltedIronItem;
+import net.mcreator.createmodpackglue.item.WeaponMoltedDiamondItem;
 import net.mcreator.createmodpackglue.item.SteelWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.SmallFoodPackItem;
 import net.mcreator.createmodpackglue.item.SmallCogwheelPackItem;
@@ -46,4 +49,10 @@ public class CreateModpackGlueModItems {
 	public static final RegistryObject<Item> MOLTEN_CLEANER_BUCKET = REGISTRY.register("molten_cleaner_bucket", () -> new MoltenCleanerItem());
 	public static final RegistryObject<Item> ADV_MOLTEN_CLEANER_BUCKET = REGISTRY.register("adv_molten_cleaner_bucket",
 			() -> new AdvMoltenCleanerItem());
+	public static final RegistryObject<Item> WEAPON_MOLTED_DIAMOND_BUCKET = REGISTRY.register("weapon_molted_diamond_bucket",
+			() -> new WeaponMoltedDiamondItem());
+	public static final RegistryObject<Item> WEAPON_MOLTED_IRON_BUCKET = REGISTRY.register("weapon_molted_iron_bucket",
+			() -> new WeaponMoltedIronItem());
+	public static final RegistryObject<Item> WEAPON_MOLTED_STEEL_BUCKET = REGISTRY.register("weapon_molted_steel_bucket",
+			() -> new WeaponMoltedSteelItem());
 }

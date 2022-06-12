@@ -117,30 +117,72 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "WeaponMoltedDiamond",
+      "type": "fluid",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_molted_diamond",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "WeaponMoltedIron",
+      "type": "fluid",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_molted_iron",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "WeaponMoltedSteel",
+      "type": "fluid",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_molted_steel",
+      "metadata": {
+        "gb": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.create_modpack_glue.diamond_weapon_ingot": "Diamond Weapon Ingot",
-      "fluid.create_modpack_glue.adv_molten_cleaner": "Adv Molten Cleaner",
+      "fluid.create_modpack_glue.weapon_molted_iron": "Molten Weapon Iron",
       "item.create_modpack_glue.inpure_netherite_dust": "Inpure Netherite Dust",
       "block.create_modpack_glue.adv_molten_cleaner": "Adv Molten Cleaner",
+      "fluid.create_modpack_glue.weapon_molted_steel": "Molten Weapon Steel",
+      "item.create_modpack_glue.small_food_pack": "Small Food Pack",
+      "block.create_modpack_glue.molten_cleaner": "Molten Cleaner",
+      "item.create_modpack_glue.adv_molten_cleaner_bucket": "Adv Molten Cleaner Bucket",
+      "item.create_modpack_glue.diamond_weapon_composite": "Diamond Weapon Composite",
+      "item.create_modpack_glue.big_food_pack": "Big Food Pack",
+      "item.create_modpack_glue.iron_weapon_ingot": "Iron Weapon Ingot",
+      "item.create_modpack_glue.diamond_weapon_ingot": "Diamond Weapon Ingot",
+      "fluid.create_modpack_glue.adv_molten_cleaner": "Adv Molten Cleaner",
       "item.create_modpack_glue.adv_cleaning_composite": "Adv Cleaning Composite",
       "item.create_modpack_glue.steel_weapon_ingot": "Steel Weapon Ingot",
       "item.create_modpack_glue.big_cogwheel_pack": "Big Cogwheel Pack",
-      "item.create_modpack_glue.small_food_pack": "Small Food Pack",
-      "block.create_modpack_glue.molten_cleaner": "Molten Cleaner",
       "item.create_modpack_glue.adv_cleaning_component": "Adv Cleaning Component",
-      "item.create_modpack_glue.adv_molten_cleaner_bucket": "Adv Molten Cleaner Bucket",
+      "fluid.create_modpack_glue.weapon_molted_diamond": "Molten Weapon Diamond",
+      "item.create_modpack_glue.weapon_molted_steel_bucket": "Molten Weapon Steel Bucket",
       "fluid.create_modpack_glue.molten_cleaner": "Molten Cleaner",
       "item.create_modpack_glue.cleaning_composite": "Cleaning Composite",
-      "item.create_modpack_glue.diamond_weapon_composite": "Diamond Weapon Composite",
+      "item.create_modpack_glue.weapon_molted_iron_bucket": "Molten Weapon Iron Bucket",
       "item.create_modpack_glue.small_cogwheel_pack": "Small Cogwheel Pack",
+      "block.create_modpack_glue.weapon_molted_diamond": "Molten Weapon Diamond",
+      "block.create_modpack_glue.weapon_molted_steel": "Molten Weapon Steel",
       "item.create_modpack_glue.molten_cleaner_bucket": "Molten Cleaner Bucket",
-      "item.create_modpack_glue.big_food_pack": "Big Food Pack",
-      "item.create_modpack_glue.iron_weapon_ingot": "Iron Weapon Ingot"
+      "block.create_modpack_glue.weapon_molted_iron": "Molten Weapon Iron",
+      "item.create_modpack_glue.weapon_molted_diamond_bucket": "Molten Weapon Diamond Bucket"
     }
   },
   "foldersRoot": {

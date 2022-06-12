@@ -10,6 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.createmodpackglue.block.WeaponMoltedSteelBlock;
+import net.mcreator.createmodpackglue.block.WeaponMoltedIronBlock;
+import net.mcreator.createmodpackglue.block.WeaponMoltedDiamondBlock;
 import net.mcreator.createmodpackglue.block.MoltenCleanerBlock;
 import net.mcreator.createmodpackglue.block.AdvMoltenCleanerBlock;
 import net.mcreator.createmodpackglue.CreateModpackGlueMod;
@@ -18,4 +21,8 @@ public class CreateModpackGlueModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, CreateModpackGlueMod.MODID);
 	public static final RegistryObject<Block> MOLTEN_CLEANER = REGISTRY.register("molten_cleaner", () -> new MoltenCleanerBlock());
 	public static final RegistryObject<Block> ADV_MOLTEN_CLEANER = REGISTRY.register("adv_molten_cleaner", () -> new AdvMoltenCleanerBlock());
+	public static final RegistryObject<Block> WEAPON_MOLTED_DIAMOND = REGISTRY.register("weapon_molted_diamond",
+			() -> new WeaponMoltedDiamondBlock());
+	public static final RegistryObject<Block> WEAPON_MOLTED_IRON = REGISTRY.register("weapon_molted_iron", () -> new WeaponMoltedIronBlock());
+	public static final RegistryObject<Block> WEAPON_MOLTED_STEEL = REGISTRY.register("weapon_molted_steel", () -> new WeaponMoltedSteelBlock());
 }

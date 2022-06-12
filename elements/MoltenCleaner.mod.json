@@ -4,8 +4,8 @@
   "definition": {
     "name": "Molten Cleaner",
     "bucketName": "Molten Cleaner Bucket",
-    "textureStill": "still",
-    "textureFlowing": "flowing",
+    "textureStill": "anim_molten_still_block",
+    "textureFlowing": "anim_molten_flowing_block",
     "tintType": "Foliage",
     "canMultiply": false,
     "flowRate": 5,
