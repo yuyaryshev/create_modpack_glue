@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.mcreator.createmodpackglue.item.SteelWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.SmallFoodPackItem;
 import net.mcreator.createmodpackglue.item.SmallCogwheelPackItem;
+import net.mcreator.createmodpackglue.item.MoltenCleanerItem;
 import net.mcreator.createmodpackglue.item.IronWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.InpureNetheriteDustItem;
 import net.mcreator.createmodpackglue.item.DiamondWeaponIngotItem;
@@ -20,6 +21,7 @@ import net.mcreator.createmodpackglue.item.DiamondWeaponCompositeItem;
 import net.mcreator.createmodpackglue.item.CleaningCompositeItem;
 import net.mcreator.createmodpackglue.item.BigFoodPackItem;
 import net.mcreator.createmodpackglue.item.BigCogwheelPackItem;
+import net.mcreator.createmodpackglue.item.AdvMoltenCleanerItem;
 import net.mcreator.createmodpackglue.item.AdvCleaningCompositeItem;
 import net.mcreator.createmodpackglue.item.AdvCleaningComponentItem;
 import net.mcreator.createmodpackglue.CreateModpackGlueMod;
@@ -41,4 +43,7 @@ public class CreateModpackGlueModItems {
 			() -> new AdvCleaningCompositeItem());
 	public static final RegistryObject<Item> ADV_CLEANING_COMPONENT = REGISTRY.register("adv_cleaning_component",
 			() -> new AdvCleaningComponentItem());
+	public static final RegistryObject<Item> MOLTEN_CLEANER_BUCKET = REGISTRY.register("molten_cleaner_bucket", () -> new MoltenCleanerItem());
+	public static final RegistryObject<Item> ADV_MOLTEN_CLEANER_BUCKET = REGISTRY.register("adv_molten_cleaner_bucket",
+			() -> new AdvMoltenCleanerItem());
 }

@@ -27,6 +27,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.createmodpackglue.init.CreateModpackGlueModItems;
+import net.mcreator.createmodpackglue.init.CreateModpackGlueModFluids;
+import net.mcreator.createmodpackglue.init.CreateModpackGlueModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,8 +46,10 @@ public class CreateModpackGlueMod {
 	public CreateModpackGlueMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		CreateModpackGlueModBlocks.REGISTRY.register(bus);
 		CreateModpackGlueModItems.REGISTRY.register(bus);
+
+		CreateModpackGlueModFluids.REGISTRY.register(bus);
 
 	}
 

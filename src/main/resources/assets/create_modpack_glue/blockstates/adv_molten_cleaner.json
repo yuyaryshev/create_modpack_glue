@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_modpack_glue:block/adv_molten_cleaner"
+    }
+  }
+}

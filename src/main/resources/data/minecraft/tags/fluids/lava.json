@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create_modpack_glue:molten_cleaner",
+    "create_modpack_glue:flowing_molten_cleaner",
+    "create_modpack_glue:adv_molten_cleaner",
+    "create_modpack_glue:flowing_adv_molten_cleaner"
+  ]
+}

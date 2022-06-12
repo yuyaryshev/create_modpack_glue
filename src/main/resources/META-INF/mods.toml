@@ -19,4 +19,10 @@ authors="nname, MCreator"
 
 
 
+[[dependencies.create_modpack_glue]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
