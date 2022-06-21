@@ -13,6 +13,8 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.createmodpackglue.block.WeaponMoltedSteelBlock;
 import net.mcreator.createmodpackglue.block.WeaponMoltedIronBlock;
 import net.mcreator.createmodpackglue.block.WeaponMoltedDiamondBlock;
+import net.mcreator.createmodpackglue.block.RichIronOreBlock;
+import net.mcreator.createmodpackglue.block.PoorIronOreBlock;
 import net.mcreator.createmodpackglue.block.MoltenCleanerBlock;
 import net.mcreator.createmodpackglue.block.AdvMoltenCleanerBlock;
 import net.mcreator.createmodpackglue.CreateModpackGlueMod;
@@ -25,4 +27,6 @@ public class CreateModpackGlueModBlocks {
 			() -> new WeaponMoltedDiamondBlock());
 	public static final RegistryObject<Block> WEAPON_MOLTED_IRON = REGISTRY.register("weapon_molted_iron", () -> new WeaponMoltedIronBlock());
 	public static final RegistryObject<Block> WEAPON_MOLTED_STEEL = REGISTRY.register("weapon_molted_steel", () -> new WeaponMoltedSteelBlock());
+	public static final RegistryObject<Block> POOR_IRON_ORE = REGISTRY.register("poor_iron_ore", () -> new PoorIronOreBlock());
+	public static final RegistryObject<Block> RICH_IRON_ORE = REGISTRY.register("rich_iron_ore", () -> new RichIronOreBlock());
 }

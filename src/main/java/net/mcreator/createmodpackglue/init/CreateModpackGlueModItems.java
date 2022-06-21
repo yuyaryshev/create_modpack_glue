@@ -8,7 +8,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.createmodpackglue.item.WeaponMoltedSteelItem;
 import net.mcreator.createmodpackglue.item.WeaponMoltedIronItem;
@@ -16,8 +19,10 @@ import net.mcreator.createmodpackglue.item.WeaponMoltedDiamondItem;
 import net.mcreator.createmodpackglue.item.SteelWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.SmallFoodPackItem;
 import net.mcreator.createmodpackglue.item.SmallCogwheelPackItem;
+import net.mcreator.createmodpackglue.item.RawPoorIronOreItem;
 import net.mcreator.createmodpackglue.item.MoltenCleanerItem;
 import net.mcreator.createmodpackglue.item.IronWeaponIngotItem;
+import net.mcreator.createmodpackglue.item.IronGrainItem;
 import net.mcreator.createmodpackglue.item.InpureNetheriteDustItem;
 import net.mcreator.createmodpackglue.item.DiamondWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.DiamondWeaponCompositeItem;
@@ -55,4 +60,12 @@ public class CreateModpackGlueModItems {
 			() -> new WeaponMoltedIronItem());
 	public static final RegistryObject<Item> WEAPON_MOLTED_STEEL_BUCKET = REGISTRY.register("weapon_molted_steel_bucket",
 			() -> new WeaponMoltedSteelItem());
+	public static final RegistryObject<Item> POOR_IRON_ORE = block(CreateModpackGlueModBlocks.POOR_IRON_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RICH_IRON_ORE = block(CreateModpackGlueModBlocks.RICH_IRON_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAW_POOR_IRON_ORE = REGISTRY.register("raw_poor_iron_ore", () -> new RawPoorIronOreItem());
+	public static final RegistryObject<Item> IRON_GRAIN = REGISTRY.register("iron_grain", () -> new IronGrainItem());
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

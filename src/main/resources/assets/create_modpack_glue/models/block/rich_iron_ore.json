@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_modpack_glue:blocks/rich_iron_ore",
+    "up": "create_modpack_glue:blocks/rich_iron_ore",
+    "north": "create_modpack_glue:blocks/rich_iron_ore",
+    "east": "create_modpack_glue:blocks/rich_iron_ore",
+    "south": "create_modpack_glue:blocks/rich_iron_ore",
+    "west": "create_modpack_glue:blocks/rich_iron_ore",
+    "particle": "create_modpack_glue:blocks/rich_iron_ore"
+  }
+}
