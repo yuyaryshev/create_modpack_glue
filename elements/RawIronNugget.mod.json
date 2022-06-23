@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "iron_grain",
+    "texture": "raw_iron_nugget",
     "customModelName": "Normal",
-    "name": "Iron Grain",
+    "name": "Raw Iron Nugget",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

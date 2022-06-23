@@ -7,8 +7,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-public class IronGrainItem extends Item {
-	public IronGrainItem() {
+public class RawIronNuggetItem extends Item {
+	public RawIronNuggetItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(4).rarity(Rarity.COMMON));
 	}
 

@@ -20,6 +20,7 @@ import net.mcreator.createmodpackglue.item.SteelWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.SmallFoodPackItem;
 import net.mcreator.createmodpackglue.item.SmallCogwheelPackItem;
 import net.mcreator.createmodpackglue.item.RawPoorIronOreItem;
+import net.mcreator.createmodpackglue.item.RawIronNuggetItem;
 import net.mcreator.createmodpackglue.item.MoltenCleanerItem;
 import net.mcreator.createmodpackglue.item.IronWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.IronGrainItem;
@@ -64,6 +65,7 @@ public class CreateModpackGlueModItems {
 	public static final RegistryObject<Item> RICH_IRON_ORE = block(CreateModpackGlueModBlocks.RICH_IRON_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RAW_POOR_IRON_ORE = REGISTRY.register("raw_poor_iron_ore", () -> new RawPoorIronOreItem());
 	public static final RegistryObject<Item> IRON_GRAIN = REGISTRY.register("iron_grain", () -> new IronGrainItem());
+	public static final RegistryObject<Item> RAW_IRON_NUGGET = REGISTRY.register("raw_iron_nugget", () -> new RawIronNuggetItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
