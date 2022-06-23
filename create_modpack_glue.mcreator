@@ -190,6 +190,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_iron_nugget"
+    },
+    {
+      "name": "CopperGrain",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_grain"
     }
   ],
   "variable_elements": [],
@@ -206,6 +214,7 @@
       "item.create_modpack_glue.adv_molten_cleaner_bucket": "Adv Molten Cleaner Bucket",
       "item.create_modpack_glue.iron_grain": "Iron Grain",
       "item.create_modpack_glue.diamond_weapon_composite": "Diamond Weapon Composite",
+      "item.create_modpack_glue.copper_grain": "Copper Grain",
       "block.create_modpack_glue.rich_iron_ore": "Poor Iron Ore",
       "item.create_modpack_glue.big_food_pack": "Big Food Pack",
       "item.create_modpack_glue.iron_weapon_ingot": "Iron Weapon Ingot",

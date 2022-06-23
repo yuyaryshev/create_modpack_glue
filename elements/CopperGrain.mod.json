@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "raw_poor_iron",
+    "texture": "copper_grain",
     "customModelName": "Normal",
-    "name": "Raw Poor Iron Ore",
+    "name": "Copper Grain",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
     },
-    "stackSize": 2,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

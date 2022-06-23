@@ -9,7 +9,7 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class RawPoorIronOreItem extends Item {
 	public RawPoorIronOreItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(2).rarity(Rarity.COMMON));
 	}
 
 	@Override
