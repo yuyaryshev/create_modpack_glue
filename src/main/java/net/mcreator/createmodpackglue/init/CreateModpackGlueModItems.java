@@ -25,8 +25,11 @@ import net.mcreator.createmodpackglue.item.RawZincNuggetItem;
 import net.mcreator.createmodpackglue.item.RawSilverNuggetItem;
 import net.mcreator.createmodpackglue.item.RawPoorZincOreItem;
 import net.mcreator.createmodpackglue.item.RawPoorSilverOreItem;
+import net.mcreator.createmodpackglue.item.RawPoorRedstoneOreItem;
 import net.mcreator.createmodpackglue.item.RawPoorIronOreItem;
 import net.mcreator.createmodpackglue.item.RawPoorGoldOreItem;
+import net.mcreator.createmodpackglue.item.RawPoorEmeraldOreItem;
+import net.mcreator.createmodpackglue.item.RawPoorDiamondOreItem;
 import net.mcreator.createmodpackglue.item.RawPoorCopperOreItem;
 import net.mcreator.createmodpackglue.item.RawPoorCobaltOreItem;
 import net.mcreator.createmodpackglue.item.RawIronNuggetItem;
@@ -36,10 +39,15 @@ import net.mcreator.createmodpackglue.item.RawCobaltNuggetItem;
 import net.mcreator.createmodpackglue.item.MoltenCleanerItem;
 import net.mcreator.createmodpackglue.item.IronWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.IronGrainItem;
+import net.mcreator.createmodpackglue.item.InpureRedstoneDustItem;
 import net.mcreator.createmodpackglue.item.InpureNetheriteDustItem;
+import net.mcreator.createmodpackglue.item.InpureEmeraldDustItem;
+import net.mcreator.createmodpackglue.item.InpureDiamondDustItem;
 import net.mcreator.createmodpackglue.item.GoldGrainItem;
+import net.mcreator.createmodpackglue.item.EmeraldDustItem;
 import net.mcreator.createmodpackglue.item.DiamondWeaponIngotItem;
 import net.mcreator.createmodpackglue.item.DiamondWeaponCompositeItem;
+import net.mcreator.createmodpackglue.item.DiamondDustItem;
 import net.mcreator.createmodpackglue.item.CopperGrainItem;
 import net.mcreator.createmodpackglue.item.CobaltGrainItem;
 import net.mcreator.createmodpackglue.item.CleaningCompositeItem;
@@ -106,6 +114,26 @@ public class CreateModpackGlueModItems {
 	public static final RegistryObject<Item> SILVER_GRAIN = REGISTRY.register("silver_grain", () -> new SilverGrainItem());
 	public static final RegistryObject<Item> RAW_SILVER_NUGGET = REGISTRY.register("raw_silver_nugget", () -> new RawSilverNuggetItem());
 	public static final RegistryObject<Item> RAW_COBALT_NUGGET = REGISTRY.register("raw_cobalt_nugget", () -> new RawCobaltNuggetItem());
+	public static final RegistryObject<Item> POOR_REDSTONE_ORE = block(CreateModpackGlueModBlocks.POOR_REDSTONE_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RICH_REDSTONE_ORE = block(CreateModpackGlueModBlocks.RICH_REDSTONE_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAW_POOR_REDSTONE_ORE = REGISTRY.register("raw_poor_redstone_ore", () -> new RawPoorRedstoneOreItem());
+	public static final RegistryObject<Item> INPURE_REDSTONE_DUST = REGISTRY.register("inpure_redstone_dust", () -> new InpureRedstoneDustItem());
+	public static final RegistryObject<Item> POOR_DIAMOND_ORE = block(CreateModpackGlueModBlocks.POOR_DIAMOND_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RICH_DIAMOND_ORE = block(CreateModpackGlueModBlocks.RICH_DIAMOND_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAW_POOR_DIAMOND_ORE = REGISTRY.register("raw_poor_diamond_ore", () -> new RawPoorDiamondOreItem());
+	public static final RegistryObject<Item> INPURE_DIAMOND_DUST = REGISTRY.register("inpure_diamond_dust", () -> new InpureDiamondDustItem());
+	public static final RegistryObject<Item> DIAMOND_DUST = REGISTRY.register("diamond_dust", () -> new DiamondDustItem());
+	public static final RegistryObject<Item> POOR_EMERALD_ORE = block(CreateModpackGlueModBlocks.POOR_EMERALD_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RICH_EMERALD_ORE = block(CreateModpackGlueModBlocks.RICH_EMERALD_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAW_POOR_EMERALD_ORE = REGISTRY.register("raw_poor_emerald_ore", () -> new RawPoorEmeraldOreItem());
+	public static final RegistryObject<Item> INPURE_EMERALD_DUST = REGISTRY.register("inpure_emerald_dust", () -> new InpureEmeraldDustItem());
+	public static final RegistryObject<Item> EMERALD_DUST = REGISTRY.register("emerald_dust", () -> new EmeraldDustItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

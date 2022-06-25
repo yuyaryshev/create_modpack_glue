@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_modpack_glue:block/rich_redstone_ore"
+    }
+  }
+}

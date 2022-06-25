@@ -390,6 +390,118 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_cobalt_nugget"
+    },
+    {
+      "name": "PoorRedstoneOre",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poor_redstone_ore"
+    },
+    {
+      "name": "RichRedstoneOre",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_redstone_ore"
+    },
+    {
+      "name": "RawPoorRedstoneOre",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_poor_redstone_ore"
+    },
+    {
+      "name": "InpureRedstoneDust",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inpure_redstone_dust"
+    },
+    {
+      "name": "PoorDiamondOre",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poor_diamond_ore"
+    },
+    {
+      "name": "RichDiamondOre",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_diamond_ore"
+    },
+    {
+      "name": "RawPoorDiamondOre",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_poor_diamond_ore"
+    },
+    {
+      "name": "InpureDiamondDust",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inpure_diamond_dust"
+    },
+    {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust"
+    },
+    {
+      "name": "PoorEmeraldOre",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poor_emerald_ore"
+    },
+    {
+      "name": "RichEmeraldOre",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_emerald_ore"
+    },
+    {
+      "name": "RawPoorEmeraldOre",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_poor_emerald_ore"
+    },
+    {
+      "name": "InpureEmeraldDust",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inpure_emerald_dust"
+    },
+    {
+      "name": "EmeraldDust",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_dust"
     }
   ],
   "variable_elements": [],
@@ -408,6 +520,7 @@
       "item.create_modpack_glue.raw_poor_copper_ore": "Raw Poor Iron Ore",
       "item.create_modpack_glue.adv_molten_cleaner_bucket": "Adv Molten Cleaner Bucket",
       "item.create_modpack_glue.diamond_weapon_composite": "Diamond Weapon Composite",
+      "item.create_modpack_glue.inpure_emerald_dust": "Iron Grain",
       "item.create_modpack_glue.copper_grain": "Copper Grain",
       "block.create_modpack_glue.rich_iron_ore": "Poor Iron Ore",
       "block.create_modpack_glue.poor_copper_ore": "Poor Iron Ore",
@@ -415,7 +528,11 @@
       "item.create_modpack_glue.diamond_weapon_ingot": "Diamond Weapon Ingot",
       "fluid.create_modpack_glue.adv_molten_cleaner": "Adv Molten Cleaner",
       "item.create_modpack_glue.raw_poor_iron_ore": "Raw Poor Iron Ore",
+      "block.create_modpack_glue.poor_diamond_ore": "Poor Iron Ore",
+      "item.create_modpack_glue.inpure_diamond_dust": "Iron Grain",
       "item.create_modpack_glue.adv_cleaning_composite": "Adv Cleaning Composite",
+      "item.create_modpack_glue.emerald_dust": "Iron Grain",
+      "item.create_modpack_glue.inpure_redstone_dust": "Iron Grain",
       "block.create_modpack_glue.rich_silver_ore": "Poor Iron Ore",
       "item.create_modpack_glue.adv_cleaning_component": "Adv Cleaning Component",
       "fluid.create_modpack_glue.weapon_molted_diamond": "Molten Weapon Diamond",
@@ -434,18 +551,27 @@
       "block.create_modpack_glue.weapon_molted_steel": "Molten Weapon Steel",
       "item.create_modpack_glue.molten_cleaner_bucket": "Molten Cleaner Bucket",
       "item.create_modpack_glue.zinc_grain": "Iron Grain",
+      "block.create_modpack_glue.rich_emerald_ore": "Poor Iron Ore",
       "fluid.create_modpack_glue.weapon_molted_iron": "Molten Weapon Iron",
+      "block.create_modpack_glue.rich_redstone_ore": "Poor Iron Ore",
       "item.create_modpack_glue.small_food_pack": "Small Food Pack",
       "item.create_modpack_glue.raw_poor_zinc_ore": "Raw Poor Iron Ore",
+      "block.create_modpack_glue.poor_redstone_ore": "Poor Iron Ore",
       "item.create_modpack_glue.iron_grain": "Iron Grain",
       "block.create_modpack_glue.rich_gold_ore": "Poor Iron Ore",
       "item.create_modpack_glue.cobalt_grain": "Iron Grain",
+      "item.create_modpack_glue.raw_poor_redstone_ore": "Raw Poor Iron Ore",
       "item.create_modpack_glue.big_food_pack": "Big Food Pack",
+      "item.create_modpack_glue.raw_poor_diamond_ore": "Raw Poor Iron Ore",
       "item.create_modpack_glue.iron_weapon_ingot": "Iron Weapon Ingot",
+      "block.create_modpack_glue.rich_diamond_ore": "Poor Iron Ore",
       "item.create_modpack_glue.steel_weapon_ingot": "Steel Weapon Ingot",
       "item.create_modpack_glue.big_cogwheel_pack": "Big Cogwheel Pack",
       "block.create_modpack_glue.rich_cobalt_ore": "Poor Iron Ore",
+      "item.create_modpack_glue.raw_poor_emerald_ore": "Raw Poor Iron Ore",
+      "block.create_modpack_glue.poor_emerald_ore": "Poor Iron Ore",
       "item.create_modpack_glue.raw_silver_nugget": "Raw Iron Nugget",
+      "item.create_modpack_glue.diamond_dust": "Iron Grain",
       "item.create_modpack_glue.weapon_molted_iron_bucket": "Molten Weapon Iron Bucket",
       "item.create_modpack_glue.small_cogwheel_pack": "Small Cogwheel Pack",
       "block.create_modpack_glue.rich_zinc_ore": "Poor Iron Ore",
