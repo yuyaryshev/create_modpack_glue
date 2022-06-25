@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "raw_poor_copper",
     "customModelName": "Normal",
-    "name": "Raw Poor Iron Ore",
+    "name": "Raw Poor Copper Ore",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

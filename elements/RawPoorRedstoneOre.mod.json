@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "raw_poor_redstone",
     "customModelName": "Normal",
-    "name": "Raw Poor Iron Ore",
+    "name": "Raw Poor Redstone Ore",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
