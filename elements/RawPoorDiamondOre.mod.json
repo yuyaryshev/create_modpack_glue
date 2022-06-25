@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "raw_poor_diamond",
     "customModelName": "Normal",
-    "name": "Raw Diamond Ore",
+    "name": "Raw Poor Diamond Ore",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
