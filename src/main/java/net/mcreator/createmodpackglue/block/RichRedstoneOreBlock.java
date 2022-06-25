@@ -31,6 +31,6 @@ public class RichRedstoneOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(CreateModpackGlueModItems.RAW_POOR_IRON_ORE.get(), 2));
+		return Collections.singletonList(new ItemStack(CreateModpackGlueModItems.RAW_POOR_REDSTONE_ORE.get(), 2));
 	}
 }

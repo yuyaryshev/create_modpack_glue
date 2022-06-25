@@ -31,6 +31,6 @@ public class PoorGoldOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(CreateModpackGlueModItems.RAW_POOR_IRON_ORE.get()));
+		return Collections.singletonList(new ItemStack(CreateModpackGlueModItems.RAW_POOR_GOLD_ORE.get()));
 	}
 }
