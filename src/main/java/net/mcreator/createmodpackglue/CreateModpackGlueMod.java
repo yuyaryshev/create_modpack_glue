@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.createmodpackglue.init.CreateModpackGlueModItems;
 import net.mcreator.createmodpackglue.init.CreateModpackGlueModFluids;
+import net.mcreator.createmodpackglue.init.CreateModpackGlueModFeatures;
 import net.mcreator.createmodpackglue.init.CreateModpackGlueModBlocks;
 
 import java.util.function.Supplier;
@@ -49,6 +50,7 @@ public class CreateModpackGlueMod {
 		CreateModpackGlueModBlocks.REGISTRY.register(bus);
 		CreateModpackGlueModItems.REGISTRY.register(bus);
 
+		CreateModpackGlueModFeatures.REGISTRY.register(bus);
 		CreateModpackGlueModFluids.REGISTRY.register(bus);
 
 	}

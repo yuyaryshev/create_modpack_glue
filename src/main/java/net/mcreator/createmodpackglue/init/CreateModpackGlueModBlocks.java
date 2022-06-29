@@ -32,6 +32,7 @@ import net.mcreator.createmodpackglue.block.PoorDiamondOreBlock;
 import net.mcreator.createmodpackglue.block.PoorCopperOreBlock;
 import net.mcreator.createmodpackglue.block.PoorCobaltOreBlock;
 import net.mcreator.createmodpackglue.block.MoltenCleanerBlock;
+import net.mcreator.createmodpackglue.block.GenIronPoorBlock;
 import net.mcreator.createmodpackglue.block.AdvMoltenCleanerBlock;
 import net.mcreator.createmodpackglue.CreateModpackGlueMod;
 
@@ -61,4 +62,5 @@ public class CreateModpackGlueModBlocks {
 	public static final RegistryObject<Block> RICH_DIAMOND_ORE = REGISTRY.register("rich_diamond_ore", () -> new RichDiamondOreBlock());
 	public static final RegistryObject<Block> POOR_EMERALD_ORE = REGISTRY.register("poor_emerald_ore", () -> new PoorEmeraldOreBlock());
 	public static final RegistryObject<Block> RICH_EMERALD_ORE = REGISTRY.register("rich_emerald_ore", () -> new RichEmeraldOreBlock());
+	public static final RegistryObject<Block> GEN_IRON_POOR = REGISTRY.register("gen_iron_poor", () -> new GenIronPoorBlock());
 }

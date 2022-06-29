@@ -134,6 +134,7 @@ public class CreateModpackGlueModItems {
 	public static final RegistryObject<Item> RAW_POOR_EMERALD_ORE = REGISTRY.register("raw_poor_emerald_ore", () -> new RawPoorEmeraldOreItem());
 	public static final RegistryObject<Item> INPURE_EMERALD_DUST = REGISTRY.register("inpure_emerald_dust", () -> new InpureEmeraldDustItem());
 	public static final RegistryObject<Item> EMERALD_DUST = REGISTRY.register("emerald_dust", () -> new EmeraldDustItem());
+	public static final RegistryObject<Item> GEN_IRON_POOR = block(CreateModpackGlueModBlocks.GEN_IRON_POOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
