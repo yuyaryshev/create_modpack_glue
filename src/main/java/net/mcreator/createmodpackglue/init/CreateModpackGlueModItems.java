@@ -136,6 +136,29 @@ public class CreateModpackGlueModItems {
 	public static final RegistryObject<Item> EMERALD_DUST = REGISTRY.register("emerald_dust", () -> new EmeraldDustItem());
 	public static final RegistryObject<Item> GEN_IRON_POOR = block(CreateModpackGlueModBlocks.GEN_IRON_POOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PISTON_BLOCKER = block(CreateModpackGlueModBlocks.PISTON_BLOCKER, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_IRON_RICH = block(CreateModpackGlueModBlocks.GEN_IRON_RICH, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_COPPER_POOR = block(CreateModpackGlueModBlocks.GEN_COPPER_POOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_COOPER_RICH = block(CreateModpackGlueModBlocks.GEN_COOPER_RICH, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_ZINC_POOR = block(CreateModpackGlueModBlocks.GEN_ZINC_POOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_ZINC_RICH = block(CreateModpackGlueModBlocks.GEN_ZINC_RICH, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_GOLD_POOR = block(CreateModpackGlueModBlocks.GEN_GOLD_POOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_GOLD_RICH = block(CreateModpackGlueModBlocks.GEN_GOLD_RICH, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_COBALT_POOR = block(CreateModpackGlueModBlocks.GEN_COBALT_POOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_COBALT_RICH = block(CreateModpackGlueModBlocks.GEN_COBALT_RICH, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_SILVER_POOR = block(CreateModpackGlueModBlocks.GEN_SILVER_POOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_SILVER_RICH = block(CreateModpackGlueModBlocks.GEN_SILVER_RICH, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_REDSTONE_POOR = block(CreateModpackGlueModBlocks.GEN_REDSTONE_POOR,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_REDSTONE_RICH = block(CreateModpackGlueModBlocks.GEN_REDSTONE_RICH,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_DIAMOND_POOR = block(CreateModpackGlueModBlocks.GEN_DIAMOND_POOR,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_DIAMOND_RICH = block(CreateModpackGlueModBlocks.GEN_DIAMOND_RICH,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_EMERALD_POOR = block(CreateModpackGlueModBlocks.GEN_EMERALD_POOR,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GEN_EMERALD_RICH = block(CreateModpackGlueModBlocks.GEN_EMERALD_RICH,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

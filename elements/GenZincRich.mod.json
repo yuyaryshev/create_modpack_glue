@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "genore_iron_ore",
+    "texture": "genore_deepslate_iron_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -34,7 +34,7 @@
     ],
     "name": "Gen Iron Poor",
     "specialInfo": [],
-    "hardness": 50.0,
+    "hardness": 70.0,
     "resistance": 100000.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -43,9 +43,9 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.RAW_IRON"
+      "value": "CUSTOM:RawPoorZincOre"
     },
-    "dropAmount": 16,
+    "dropAmount": 64,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -133,7 +133,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 1,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 128
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 32
   }
 }

@@ -36,18 +36,18 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-public class GenIronPoorFeature extends OreFeature {
-	public static GenIronPoorFeature FEATURE = null;
+public class GenCobaltPoorFeature extends OreFeature {
+	public static GenCobaltPoorFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new GenIronPoorFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_iron_poor", FEATURE,
-				new OreConfiguration(GenIronPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_IRON_POOR.get().defaultBlockState(), 1));
-		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_iron_poor", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
+		FEATURE = new GenCobaltPoorFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_cobalt_poor", FEATURE,
+				new OreConfiguration(GenCobaltPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_COBALT_POOR.get().defaultBlockState(), 1));
+		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_cobalt_poor", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(16)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -56,9 +56,9 @@ public class GenIronPoorFeature extends OreFeature {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, Level.NETHER);
 
-	public GenIronPoorFeature() {
+	public GenCobaltPoorFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -70,14 +70,14 @@ public class GenIronPoorFeature extends OreFeature {
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	private static class GenIronPoorFeatureRuleTest extends RuleTest {
-		static final GenIronPoorFeatureRuleTest INSTANCE = new GenIronPoorFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<GenIronPoorFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		private static final RuleTestType<GenIronPoorFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
+	private static class GenCobaltPoorFeatureRuleTest extends RuleTest {
+		static final GenCobaltPoorFeatureRuleTest INSTANCE = new GenCobaltPoorFeatureRuleTest();
+		private static final com.mojang.serialization.Codec<GenCobaltPoorFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		private static final RuleTestType<GenCobaltPoorFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("create_modpack_glue:gen_iron_poor_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("create_modpack_glue:gen_cobalt_poor_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

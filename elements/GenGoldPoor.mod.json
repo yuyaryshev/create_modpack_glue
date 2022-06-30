@@ -43,9 +43,9 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.RAW_IRON"
+      "value": "Items.RAW_GOLD"
     },
-    "dropAmount": 16,
+    "dropAmount": 8,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -133,7 +133,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 1,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 128
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 32
   }
 }

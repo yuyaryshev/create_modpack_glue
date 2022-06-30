@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.RAW_IRON"
+      "value": "Items.REDSTONE"
     },
     "dropAmount": 16,
     "useLootTableForDrops": false,
@@ -131,7 +131,7 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 4,
+    "frequencyPerChunks": 1,
     "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 128

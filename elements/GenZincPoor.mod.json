@@ -43,9 +43,9 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.RAW_IRON"
+      "value": "CUSTOM:RawPoorZincOre"
     },
-    "dropAmount": 16,
+    "dropAmount": 32,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

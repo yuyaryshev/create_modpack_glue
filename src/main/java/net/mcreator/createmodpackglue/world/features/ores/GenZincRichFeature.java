@@ -36,18 +36,18 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-public class GenIronPoorFeature extends OreFeature {
-	public static GenIronPoorFeature FEATURE = null;
+public class GenZincRichFeature extends OreFeature {
+	public static GenZincRichFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new GenIronPoorFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_iron_poor", FEATURE,
-				new OreConfiguration(GenIronPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_IRON_POOR.get().defaultBlockState(), 1));
-		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_iron_poor", CONFIGURED_FEATURE,
+		FEATURE = new GenZincRichFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_zinc_rich", FEATURE,
+				new OreConfiguration(GenZincRichFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_ZINC_RICH.get().defaultBlockState(), 1));
+		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_zinc_rich", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -58,7 +58,7 @@ public class GenIronPoorFeature extends OreFeature {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
-	public GenIronPoorFeature() {
+	public GenZincRichFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -70,14 +70,14 @@ public class GenIronPoorFeature extends OreFeature {
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	private static class GenIronPoorFeatureRuleTest extends RuleTest {
-		static final GenIronPoorFeatureRuleTest INSTANCE = new GenIronPoorFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<GenIronPoorFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		private static final RuleTestType<GenIronPoorFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
+	private static class GenZincRichFeatureRuleTest extends RuleTest {
+		static final GenZincRichFeatureRuleTest INSTANCE = new GenZincRichFeatureRuleTest();
+		private static final com.mojang.serialization.Codec<GenZincRichFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		private static final RuleTestType<GenZincRichFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("create_modpack_glue:gen_iron_poor_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("create_modpack_glue:gen_zinc_rich_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

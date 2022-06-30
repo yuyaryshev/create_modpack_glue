@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_modpack_glue:block/gen_emerald_poor"
+    }
+  }
+}

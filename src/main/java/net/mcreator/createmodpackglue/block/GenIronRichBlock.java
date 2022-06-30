@@ -16,9 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class GenIronPoorBlock extends Block {
-	public GenIronPoorBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.ANVIL).strength(50f, 100000f));
+public class GenIronRichBlock extends Block {
+	public GenIronRichBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.ANVIL).strength(70f, 100000f));
 	}
 
 	@Override
@@ -36,6 +36,6 @@ public class GenIronPoorBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(Items.RAW_IRON, 16));
+		return Collections.singletonList(new ItemStack(Items.RAW_IRON, 32));
 	}
 }
