@@ -37,7 +37,7 @@ public class GenIronPoorAdditionalGenerationConditionProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.is(ItemTags.create(new ResourceLocation("minecraft:fishes")))) {
+				.is(ItemTags.create(new ResourceLocation("minecraft:fishesssss")))) {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = Blocks.CRIMSON_HYPHAE.defaultBlockState();
