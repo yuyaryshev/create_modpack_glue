@@ -510,6 +510,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gen_iron_poor"
+    },
+    {
+      "name": "PistonBlocker",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piston_blocker"
+    },
+    {
+      "name": "PistonBlockerRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piston_blocker_recipe"
     }
   ],
   "variable_elements": [],
@@ -522,8 +538,8 @@
       "item.create_modpack_glue.raw_cobalt_nugget": "Кусочек кобальтовой руды",
       "item.create_modpack_glue.inpure_netherite_dust": "Молотая незеритовая руда",
       "block.create_modpack_glue.adv_molten_cleaner": "Улучшеный рудный очиститель",
-      "fluid.create_modpack_glue.weapon_molted_steel": "Расплавленная оружейная сталь",
       "block.create_modpack_glue.molten_cleaner": "Рудный очиститель",
+      "fluid.create_modpack_glue.weapon_molted_steel": "Расплавленная оружейная сталь",
       "item.create_modpack_glue.raw_iron_nugget": "Кусочек железной руды",
       "item.create_modpack_glue.raw_poor_copper_ore": "Бедная медная руда",
       "item.create_modpack_glue.adv_molten_cleaner_bucket": "Ведро улучшеного рудного очистителя",
@@ -556,6 +572,7 @@
       "item.create_modpack_glue.raw_poor_cobalt_ore": "Бедная кобольтовая руда",
       "item.create_modpack_glue.silver_grain": "Серебряная песчинка",
       "block.create_modpack_glue.weapon_molted_diamond": "Оружейно-алмазный расплав",
+      "block.create_modpack_glue.piston_blocker": "Piston Blocker",
       "block.create_modpack_glue.weapon_molted_steel": "Расплав оружейной стали",
       "item.create_modpack_glue.molten_cleaner_bucket": "Ведро рудного очистителя",
       "item.create_modpack_glue.zinc_grain": "Цинковая песчинка",
@@ -595,8 +612,8 @@
       "item.create_modpack_glue.raw_cobalt_nugget": "Raw Cobalt Nugget",
       "item.create_modpack_glue.inpure_netherite_dust": "Inpure Netherite Dust",
       "block.create_modpack_glue.adv_molten_cleaner": "Adv Molten Cleaner",
-      "block.create_modpack_glue.molten_cleaner": "Molten Cleaner",
       "fluid.create_modpack_glue.weapon_molted_steel": "Molten Weapon Steel",
+      "block.create_modpack_glue.molten_cleaner": "Molten Cleaner",
       "item.create_modpack_glue.raw_iron_nugget": "Raw Iron Nugget",
       "block.create_modpack_glue.gen_iron_poor": "Gen Iron Poor",
       "item.create_modpack_glue.raw_poor_copper_ore": "Raw Poor Copper Ore",
@@ -630,6 +647,7 @@
       "item.create_modpack_glue.raw_poor_cobalt_ore": "Raw Poor Cobalt Ore",
       "item.create_modpack_glue.silver_grain": "Silver Grain",
       "block.create_modpack_glue.weapon_molted_diamond": "Molten Weapon Diamond",
+      "block.create_modpack_glue.piston_blocker": "Piston Blocker",
       "block.create_modpack_glue.weapon_molted_steel": "Molten Weapon Steel",
       "item.create_modpack_glue.molten_cleaner_bucket": "Molten Cleaner Bucket",
       "item.create_modpack_glue.zinc_grain": "Zinc Grain",
