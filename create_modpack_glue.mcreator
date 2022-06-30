@@ -662,6 +662,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gen_emerald_rich"
+    },
+    {
+      "name": "GenIronPoorAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gen_iron_poor_additional_generation_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
