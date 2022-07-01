@@ -30,6 +30,7 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.createmodpackglue.procedures.GenIronPoorAdditionalGenerationConditionProcedure;
 import net.mcreator.createmodpackglue.init.CreateModpackGlueModBlocks;
 
 import java.util.Set;
@@ -44,9 +45,9 @@ public class GenIronPoorFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new GenIronPoorFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_iron_poor", FEATURE,
-				new OreConfiguration(GenIronPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_IRON_POOR.get().defaultBlockState(), 1));
+				new OreConfiguration(GenIronPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_IRON_POOR.get().defaultBlockState(), 30));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_iron_poor", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(8), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(30), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -65,6 +66,11 @@ public class GenIronPoorFeature extends OreFeature {
 	public boolean place(FeaturePlaceContext<OreConfiguration> context) {
 		WorldGenLevel world = context.level();
 		if (!generate_dimensions.contains(world.getLevel().dimension()))
+			return false;
+		int x = context.origin().getX();
+		int y = context.origin().getY();
+		int z = context.origin().getZ();
+		if (!GenIronPoorAdditionalGenerationConditionProcedure.execute(world, x, y, z))
 			return false;
 		return super.place(context);
 	}

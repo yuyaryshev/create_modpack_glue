@@ -664,12 +664,12 @@
       "registry_name": "gen_emerald_rich"
     },
     {
-      "name": "GenIronPoorAdditionalGenerationCondition",
+      "name": "DontBuildNearMobs",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gen_iron_poor_additional_generation_condition",
+      "registry_name": "dont_build_near_mobs",
       "metadata": {
         "dependencies": [
           {
@@ -696,18 +696,15 @@
       }
     },
     {
-      "name": "DontBuildNearMobs",
+      "name": "GenIronPoorAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dont_build_near_mobs",
+      "registry_name": "gen_iron_poor_additional_generation_condition",
       "metadata": {
+        "return_type": "logic",
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
