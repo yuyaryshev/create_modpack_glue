@@ -46,7 +46,7 @@ public class GenDiamondRichFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_diamond_rich", FEATURE, new OreConfiguration(
 				GenDiamondRichFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_DIAMOND_RICH.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_diamond_rich", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-36), VerticalAnchor.absolute(-32)), BiomeFilter.biome()));
 		return FEATURE;
 	}

@@ -46,7 +46,7 @@ public class GenSilverPoorFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_silver_poor", FEATURE,
 				new OreConfiguration(GenSilverPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_SILVER_POOR.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_silver_poor", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
 		return FEATURE;
 	}

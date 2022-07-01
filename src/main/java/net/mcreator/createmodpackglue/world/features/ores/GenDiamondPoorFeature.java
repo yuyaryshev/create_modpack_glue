@@ -46,7 +46,7 @@ public class GenDiamondPoorFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_diamond_poor", FEATURE, new OreConfiguration(
 				GenDiamondPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_DIAMOND_POOR.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_diamond_poor", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-40), VerticalAnchor.absolute(-30)), BiomeFilter.biome()));
 		return FEATURE;
 	}

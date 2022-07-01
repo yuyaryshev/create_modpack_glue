@@ -46,7 +46,7 @@ public class GenCooperRichFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_cooper_rich", FEATURE,
 				new OreConfiguration(GenCooperRichFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_COOPER_RICH.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_cooper_rich", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(6), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
 		return FEATURE;
 	}

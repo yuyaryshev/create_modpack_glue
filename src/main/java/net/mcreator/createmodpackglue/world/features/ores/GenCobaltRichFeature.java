@@ -46,7 +46,7 @@ public class GenCobaltRichFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_cobalt_rich", FEATURE,
 				new OreConfiguration(GenCobaltRichFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_COBALT_RICH.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_cobalt_rich", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-32)), BiomeFilter.biome()));
 		return FEATURE;
 	}

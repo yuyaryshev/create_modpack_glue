@@ -46,7 +46,7 @@ public class GenCobaltPoorFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_cobalt_poor", FEATURE,
 				new OreConfiguration(GenCobaltPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_COBALT_POOR.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_cobalt_poor", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(16)), BiomeFilter.biome()));
 		return FEATURE;
 	}

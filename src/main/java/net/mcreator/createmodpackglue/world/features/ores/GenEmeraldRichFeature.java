@@ -46,7 +46,7 @@ public class GenEmeraldRichFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_emerald_rich", FEATURE, new OreConfiguration(
 				GenEmeraldRichFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_EMERALD_RICH.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_emerald_rich", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-36), VerticalAnchor.absolute(-32)), BiomeFilter.biome()));
 		return FEATURE;
 	}

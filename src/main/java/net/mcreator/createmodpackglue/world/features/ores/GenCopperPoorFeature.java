@@ -46,7 +46,7 @@ public class GenCopperPoorFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_copper_poor", FEATURE,
 				new OreConfiguration(GenCopperPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_COPPER_POOR.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_copper_poor", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(6), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
 		return FEATURE;
 	}

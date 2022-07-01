@@ -46,7 +46,7 @@ public class GenZincRichFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_zinc_rich", FEATURE,
 				new OreConfiguration(GenZincRichFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_ZINC_RICH.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_zinc_rich", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(6), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
 		return FEATURE;
 	}
