@@ -723,6 +723,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "OreCustomTest1",
+      "type": "code",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ore_custom_test_1"
     }
   ],
   "variable_elements": [],
