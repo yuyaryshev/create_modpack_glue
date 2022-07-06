@@ -731,6 +731,14 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "ore_custom_test_1"
+    },
+    {
+      "name": "AndesiteSheet",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_sheet"
     }
   ],
   "variable_elements": [],
@@ -803,6 +811,7 @@
       "block.create_modpack_glue.gen_gold_poor": "Gen Iron Poor",
       "item.create_modpack_glue.cobalt_grain": "Кобальтовая песчинка",
       "item.create_modpack_glue.raw_poor_redstone_ore": "Бедная редстоуновая руда",
+      "item.create_modpack_glue.andesite_sheet": "Andesite Sheet",
       "item.create_modpack_glue.big_food_pack": "Юлдбщая упаковка еды",
       "item.create_modpack_glue.raw_poor_diamond_ore": "Бедная алмазная руда",
       "item.create_modpack_glue.iron_weapon_ingot": "Слиток оружейного железа",
@@ -895,6 +904,7 @@
       "block.create_modpack_glue.gen_gold_poor": "Gen Iron Poor",
       "item.create_modpack_glue.cobalt_grain": "Cobalt Grain",
       "item.create_modpack_glue.raw_poor_redstone_ore": "Raw Poor Redstone Ore",
+      "item.create_modpack_glue.andesite_sheet": "Andesite Sheet",
       "item.create_modpack_glue.big_food_pack": "Big Food Pack",
       "item.create_modpack_glue.raw_poor_diamond_ore": "Raw Poor Diamond Ore",
       "item.create_modpack_glue.iron_weapon_ingot": "Iron Weapon Ingot",

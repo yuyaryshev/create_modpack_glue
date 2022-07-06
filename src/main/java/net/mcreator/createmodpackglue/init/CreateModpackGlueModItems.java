@@ -53,6 +53,7 @@ import net.mcreator.createmodpackglue.item.CobaltGrainItem;
 import net.mcreator.createmodpackglue.item.CleaningCompositeItem;
 import net.mcreator.createmodpackglue.item.BigFoodPackItem;
 import net.mcreator.createmodpackglue.item.BigCogwheelPackItem;
+import net.mcreator.createmodpackglue.item.AndesiteSheetItem;
 import net.mcreator.createmodpackglue.item.AdvMoltenCleanerItem;
 import net.mcreator.createmodpackglue.item.AdvCleaningCompositeItem;
 import net.mcreator.createmodpackglue.item.AdvCleaningComponentItem;
@@ -159,6 +160,7 @@ public class CreateModpackGlueModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> GEN_EMERALD_RICH = block(CreateModpackGlueModBlocks.GEN_EMERALD_RICH,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ANDESITE_SHEET = REGISTRY.register("andesite_sheet", () -> new AndesiteSheetItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
