@@ -33,6 +33,8 @@ import net.mcreator.createmodpackglue.block.PoorCopperOreBlock;
 import net.mcreator.createmodpackglue.block.PoorCobaltOreBlock;
 import net.mcreator.createmodpackglue.block.PistonBlockerBlock;
 import net.mcreator.createmodpackglue.block.MoltenCleanerBlock;
+import net.mcreator.createmodpackglue.block.MechanicalComplectBlock;
+import net.mcreator.createmodpackglue.block.IncompleteMechanicalComplectBlock;
 import net.mcreator.createmodpackglue.block.GenZincRichBlock;
 import net.mcreator.createmodpackglue.block.GenZincPoorBlock;
 import net.mcreator.createmodpackglue.block.GenSilverRichBlock;
@@ -99,4 +101,7 @@ public class CreateModpackGlueModBlocks {
 	public static final RegistryObject<Block> GEN_DIAMOND_RICH = REGISTRY.register("gen_diamond_rich", () -> new GenDiamondRichBlock());
 	public static final RegistryObject<Block> GEN_EMERALD_POOR = REGISTRY.register("gen_emerald_poor", () -> new GenEmeraldPoorBlock());
 	public static final RegistryObject<Block> GEN_EMERALD_RICH = REGISTRY.register("gen_emerald_rich", () -> new GenEmeraldRichBlock());
+	public static final RegistryObject<Block> MECHANICAL_COMPLECT = REGISTRY.register("mechanical_complect", () -> new MechanicalComplectBlock());
+	public static final RegistryObject<Block> INCOMPLETE_MECHANICAL_COMPLECT = REGISTRY.register("incomplete_mechanical_complect",
+			() -> new IncompleteMechanicalComplectBlock());
 }

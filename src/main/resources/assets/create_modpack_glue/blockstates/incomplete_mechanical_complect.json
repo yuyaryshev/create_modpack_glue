@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_modpack_glue:block/incomplete_mechanical_complect"
+    }
+  }
+}

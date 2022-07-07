@@ -739,6 +739,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "andesite_sheet"
+    },
+    {
+      "name": "MechanicalComplect",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_complect"
+    },
+    {
+      "name": "IncompleteMechanicalComplect",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_mechanical_complect"
     }
   ],
   "variable_elements": [],
@@ -800,6 +816,7 @@
       "block.create_modpack_glue.rich_emerald_ore": "Богатая изумрудная руда",
       "fluid.create_modpack_glue.weapon_molted_iron": "Расплав оружейного железа",
       "block.create_modpack_glue.rich_redstone_ore": "Богатая редстоуновая руда",
+      "block.create_modpack_glue.incomplete_mechanical_complect": "Mechanical Complect",
       "block.create_modpack_glue.gen_iron_rich": "Gen Iron Poor",
       "item.create_modpack_glue.small_food_pack": "Маленькая упаковка еды",
       "item.create_modpack_glue.raw_poor_zinc_ore": "Бедная цинковая руда",
@@ -827,6 +844,7 @@
       "item.create_modpack_glue.raw_silver_nugget": "Кусочек серебряной руды",
       "item.create_modpack_glue.diamond_dust": "Алмазный порошок",
       "block.create_modpack_glue.gen_emerald_poor": "Gen Iron Poor",
+      "block.create_modpack_glue.mechanical_complect": "Mechanical Complect",
       "item.create_modpack_glue.weapon_molted_iron_bucket": "Ведро с расплавом оружейного железа",
       "item.create_modpack_glue.small_cogwheel_pack": "Маленькая упаковка шестеренок",
       "block.create_modpack_glue.gen_redstone_poor": "Gen Iron Poor",
@@ -893,6 +911,7 @@
       "block.create_modpack_glue.rich_emerald_ore": "Rich Emerald Ore",
       "fluid.create_modpack_glue.weapon_molted_iron": "Molten Weapon Iron",
       "block.create_modpack_glue.rich_redstone_ore": "Rich Redstone Ore",
+      "block.create_modpack_glue.incomplete_mechanical_complect": "Mechanical Complect",
       "block.create_modpack_glue.gen_iron_rich": "Gen Iron Poor",
       "item.create_modpack_glue.small_food_pack": "Small Food Pack",
       "item.create_modpack_glue.raw_poor_zinc_ore": "Raw Poor Zinc Ore",
@@ -920,6 +939,7 @@
       "item.create_modpack_glue.raw_silver_nugget": "Raw Silver Nugget",
       "item.create_modpack_glue.diamond_dust": "Diamond Dust",
       "block.create_modpack_glue.gen_emerald_poor": "Gen Iron Poor",
+      "block.create_modpack_glue.mechanical_complect": "Mechanical Complect",
       "item.create_modpack_glue.weapon_molted_iron_bucket": "Molten Weapon Iron Bucket",
       "item.create_modpack_glue.small_cogwheel_pack": "Small Cogwheel Pack",
       "block.create_modpack_glue.gen_redstone_poor": "Gen Iron Poor",
