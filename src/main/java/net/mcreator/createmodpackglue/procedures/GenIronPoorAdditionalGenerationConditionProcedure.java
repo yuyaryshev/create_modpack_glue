@@ -20,7 +20,7 @@ public class GenIronPoorAdditionalGenerationConditionProcedure {
 		if ((world.getBlockState(new BlockPos(x, y + 1, z))).getBlock() == Blocks.IRON_ORE) {
 			c = c + 100;
 		} else if (!world.isEmptyBlock(new BlockPos(x, y + 1, z))) {
-			c = c + 1;
+			c = c + 10;
 		}
 		if ((world.getBlockState(new BlockPos(x, y, z + 1))).getBlock() == Blocks.IRON_ORE) {
 			c = c + 100;
@@ -42,7 +42,7 @@ public class GenIronPoorAdditionalGenerationConditionProcedure {
 		} else if (!world.isEmptyBlock(new BlockPos(x, y, z - 1))) {
 			c = c + 1;
 		}
-		if (c >= 3 && Mth.nextInt(new Random(), 1, 100) <= 100) {
+		if (c >= 12 && Mth.nextInt(new Random(), 1, 100) <= 100) {
 			c = c + 100;
 		}
 		if (c >= 100) {
