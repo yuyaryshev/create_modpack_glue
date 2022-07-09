@@ -54,8 +54,8 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
-    "tickRandomly": false,
+    "tickRate": 1,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -135,7 +135,7 @@
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 30,
-    "frequencyOnChunk": 2,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 128,
     "generateCondition": {

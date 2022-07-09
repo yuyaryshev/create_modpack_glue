@@ -45,7 +45,7 @@ public class GenIronPoorFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new GenIronPoorFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("create_modpack_glue:gen_iron_poor", FEATURE,
-				new OreConfiguration(GenIronPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_IRON_POOR.get().defaultBlockState(), 2));
+				new OreConfiguration(GenIronPoorFeatureRuleTest.INSTANCE, CreateModpackGlueModBlocks.GEN_IRON_POOR.get().defaultBlockState(), 4));
 		PLACED_FEATURE = PlacementUtils.register("create_modpack_glue:gen_iron_poor", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(30), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
